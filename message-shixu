@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-28T03:27:06.160Z" agent="5.0 (Macintosh)" etag="vB0SORo7W-Z6KJX3csl2" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-28T03:29:52.408Z" agent="5.0 (Macintosh)" etag="RRcLU9F02XTmevBQJuCh" version="13.10.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="807" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,9 +10,11 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="自定义消息产生" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="自定义消息产生" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+          <mxGeometry x="-0.5" y="6" relative="1" as="geometry">
+            <mxPoint x="-15" y="76" as="sourcePoint" />
+            <mxPoint x="45" y="76" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Yach服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
@@ -73,7 +75,7 @@
         <mxCell id="7eJ_FPmN07mWzk2PzsHa-8" value="发送自定义消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="220" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7eJ_FPmN07mWzk2PzsHa-11" value="发送自定义消息结构" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.4;entryY=0.863;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="7eJ_FPmN07mWzk2PzsHa-11" value="发送自定义消息结果" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.4;entryY=0.863;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="394" y="297.03999999999996" as="targetPoint" />
             <mxPoint x="519.5" y="297.03999999999996" as="sourcePoint" />
