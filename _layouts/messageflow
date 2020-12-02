@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T03:44:51.407Z" agent="5.0 (Macintosh)" etag="4SfD7z1sQIQ9q902EW6M" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-02T03:50:54.362Z" agent="5.0 (Macintosh)" etag="uaUMkb6LYoJkKgGP4_Ko" version="13.10.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,10 +98,10 @@
         <mxCell id="Vqeg-z0jvmgJa8YYmDvF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vqeg-z0jvmgJa8YYmDvF-21" target="Vqeg-z0jvmgJa8YYmDvF-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-21" value="拼装响应结果回调报文发送到回调通知CMQ中" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-21" value="拼装响应结果回调报文发送到回调通知CMQ中（设置app标签）" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1250" y="665" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-24" value="拼装响应结果回调报文发送到回调通知CMQ中" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-24" value="拼装响应结果回调报文发送到回调通知CMQ中（设置app标签）" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1070" y="665" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vqeg-z0jvmgJa8YYmDvF-29" value="发送失败/告警" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -323,7 +323,7 @@
         <mxCell id="Vqeg-z0jvmgJa8YYmDvF-117" value="发送成功" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2098" y="370" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-121" value="拼装响应结果回调报文发送到回调通知CMQ中" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-121" value="拼装响应结果回调报文发送到回调通知CMQ中（设置app标签）" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2078" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vqeg-z0jvmgJa8YYmDvF-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vqeg-z0jvmgJa8YYmDvF-126" target="Vqeg-z0jvmgJa8YYmDvF-128">
@@ -343,7 +343,7 @@
         <mxCell id="Vqeg-z0jvmgJa8YYmDvF-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vqeg-z0jvmgJa8YYmDvF-128" target="Vqeg-z0jvmgJa8YYmDvF-129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-128" value="拼装响应结果回调报文发送到回调通知CMQ中" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-128" value="拼装响应结果回调报文发送到回调通知CMQ中（设置app标签）" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2240" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vqeg-z0jvmgJa8YYmDvF-129" value="发送失败/告警" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -351,6 +351,23 @@
         </mxCell>
         <mxCell id="Vqeg-z0jvmgJa8YYmDvF-130" value="记录发送次数，拼装数据，发送到延迟队列中，等待重试发送" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2420" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vqeg-z0jvmgJa8YYmDvF-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2720" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-133" value="回调通知CMQ订阅设置queue类型的CMQ，从该CMQ取一条消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2650" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vqeg-z0jvmgJa8YYmDvF-136" target="Vqeg-z0jvmgJa8YYmDvF-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-136" value="根据app和requestId从redis中获取请求报文信息" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2660" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqeg-z0jvmgJa8YYmDvF-139" value="根据不同的接口，存储数据到对应的mysql数据表中" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2660" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
