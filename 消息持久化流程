@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T12:46:05.129Z" agent="5.0 (Macintosh)" version="14.1.1" etag="jpOrM0uMi8P5v-afMGB5" type="github"><diagram id="EpYe04CfQgdUmMZRpD8I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-23T12:46:23.872Z" agent="5.0 (Macintosh)" etag="QFeqsUDwCpUPrsOI3RUx" version="14.1.1" type="github">
+  <diagram id="EpYe04CfQgdUmMZRpD8I" name="Page-1">
+    <mxGraphModel dx="-1535" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="RHYKnwZhmGBLy1V2imt3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2740" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-2" value="尝试从回调通知CMQ获取消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="RHYKnwZhmGBLy1V2imt3-4" target="RHYKnwZhmGBLy1V2imt3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-4" value="根据app和requestId从redis中获取请求报文信息及请求失败记录" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="442.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RHYKnwZhmGBLy1V2imt3-6" target="RHYKnwZhmGBLy1V2imt3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-6" value="依次将调用失败记录及最终记录持久化到mysql库中" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RHYKnwZhmGBLy1V2imt3-11" target="RHYKnwZhmGBLy1V2imt3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-8" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RHYKnwZhmGBLy1V2imt3-7">
+          <mxGeometry x="0.0714" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RHYKnwZhmGBLy1V2imt3-11" target="RHYKnwZhmGBLy1V2imt3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-10" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RHYKnwZhmGBLy1V2imt3-9">
+          <mxGeometry x="0.24" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-11" value="获取成功" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="2685" y="210" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RHYKnwZhmGBLy1V2imt3-13" target="RHYKnwZhmGBLy1V2imt3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-13" value="反序列化消息内容" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="2665" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RHYKnwZhmGBLy1V2imt3-15" target="RHYKnwZhmGBLy1V2imt3-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2920" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-15" value="无消息，休眠随机ms（100ms以下）" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="2851" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHYKnwZhmGBLy1V2imt3-16" value="删除redis请求数据及调用失败记录数据" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
