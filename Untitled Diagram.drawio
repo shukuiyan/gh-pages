@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T09:13:31.930Z" agent="5.0 (Macintosh)" etag="wMfJQbLnqefgojODr9fA" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T09:19:13.048Z" agent="5.0 (Macintosh)" etag="4vxhVugKD7yijA-IRoe9" version="14.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
         </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-57" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90MipNQsAsd7Xp9ht8LP-50">
           <mxGeometry x="0.4333" y="2" relative="1" as="geometry">
-            <mxPoint x="8" y="7" as="offset" />
+            <mxPoint x="8" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-44">
@@ -174,10 +174,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-49" value="缓存redis（验重用）" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="140" width="120" height="30" as="geometry" />
+          <mxGeometry x="160" y="150" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-54" value="重复接收，返回云信接收正常" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-62" target="90MipNQsAsd7Xp9ht8LP-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-62" value="开始处理消息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-63" target="90MipNQsAsd7Xp9ht8LP-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-63" value="匹配消息类型" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-69" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-66" target="90MipNQsAsd7Xp9ht8LP-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-66" value="根据消息类型获取处理器列表" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1045" y="240" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-70" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-71" target="90MipNQsAsd7Xp9ht8LP-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-71" value="依次调用处理器处理方法" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90MipNQsAsd7Xp9ht8LP-73" value="持久化" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="430" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
