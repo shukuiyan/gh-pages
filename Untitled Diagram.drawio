@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T09:19:13.048Z" agent="5.0 (Macintosh)" etag="4vxhVugKD7yijA-IRoe9" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T09:20:49.815Z" agent="5.0 (Macintosh)" etag="czMW40YknsssxxDYLEpp" version="14.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,44 +79,6 @@
         <mxCell id="90MipNQsAsd7Xp9ht8LP-12" value="结束，返回云信接收正常" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="587.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-14" target="90MipNQsAsd7Xp9ht8LP-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-14" value="尝试从CMQ获取消息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="100" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-15" target="90MipNQsAsd7Xp9ht8LP-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90MipNQsAsd7Xp9ht8LP-17">
-          <mxGeometry x="0.1429" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-15" target="90MipNQsAsd7Xp9ht8LP-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-15" value="获取消息成功" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="170" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-16" target="90MipNQsAsd7Xp9ht8LP-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="860" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-16" value="无消息，随机休眠n毫秒" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="810" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-21" value="反序列化数据，组装实体数据" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="280" width="120" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-23" target="90MipNQsAsd7Xp9ht8LP-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -125,29 +87,6 @@
         </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-25" value="将抄送消息发送到cmq，失败的话，默认重试（3次）" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="90MipNQsAsd7Xp9ht8LP-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="410" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-29" target="90MipNQsAsd7Xp9ht8LP-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-41" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-29" target="90MipNQsAsd7Xp9ht8LP-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-29" value="消息处理成功" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="645" y="450" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-31" value="处理消息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-36" value="不做处理，等待cmq隐藏期再次消费" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="790" y="455" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-39" value="从cmq删除该消息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="540" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-44" target="90MipNQsAsd7Xp9ht8LP-49">
           <mxGeometry relative="1" as="geometry" />
@@ -178,41 +117,6 @@
         </mxCell>
         <mxCell id="90MipNQsAsd7Xp9ht8LP-54" value="重复接收，返回云信接收正常" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="75" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-62" target="90MipNQsAsd7Xp9ht8LP-63">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-62" value="开始处理消息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1050" y="100" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-63" target="90MipNQsAsd7Xp9ht8LP-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-63" value="匹配消息类型" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1050" y="170" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-69" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-66">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1230" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-66" target="90MipNQsAsd7Xp9ht8LP-71">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-66" value="根据消息类型获取处理器列表" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1045" y="240" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-70" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1230" y="260" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="90MipNQsAsd7Xp9ht8LP-71" target="90MipNQsAsd7Xp9ht8LP-73">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-71" value="依次调用处理器处理方法" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1050" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="90MipNQsAsd7Xp9ht8LP-73" value="持久化" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1050" y="430" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
