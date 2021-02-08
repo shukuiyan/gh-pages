@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T08:57:11.921Z" agent="5.0 (Macintosh)" etag="Ood6pL5d03SWgf31N1k-" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-08T09:01:17.429Z" agent="5.0 (Macintosh)" etag="AyuUbvE7ckCRnNXiA6ld" version="14.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="903" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -253,6 +253,36 @@
         </mxCell>
         <mxCell id="_bZXitFiKFjqk8RF1Yf0-46" value="同步成功/失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bZXitFiKFjqk8RF1Yf0-45">
           <mxGeometry x="0.0826" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="760" as="sourcePoint" />
+            <mxPoint x="360" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="760" />
+              <mxPoint x="410" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-48" value="消息撤回通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bZXitFiKFjqk8RF1Yf0-47">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="780" as="sourcePoint" />
+            <mxPoint x="555" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="780" />
+              <mxPoint x="465" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-50" value="接收成功/失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bZXitFiKFjqk8RF1Yf0-49">
+          <mxGeometry x="-0.0513" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
