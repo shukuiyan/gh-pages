@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T08:54:20.440Z" agent="5.0 (Macintosh)" etag="Trq1jXqPw4DR-_PI_9VC" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-08T08:57:11.921Z" agent="5.0 (Macintosh)" etag="Ood6pL5d03SWgf31N1k-" version="14.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="903" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="修改结果同步" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry x="-0.2121" y="-20" relative="1" as="geometry">
+          <mxGeometry x="-0.1176" relative="1" as="geometry">
             <mxPoint x="240" y="200" as="sourcePoint" />
             <mxPoint x="180" y="200" as="targetPoint" />
             <Array as="points">
@@ -220,6 +220,39 @@
         </mxCell>
         <mxCell id="_bZXitFiKFjqk8RF1Yf0-41" value="指定人员的敏感消息列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bZXitFiKFjqk8RF1Yf0-40">
           <mxGeometry x="-0.0513" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-42" value="特殊敏感人员列表修改" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-1" y="10" relative="1" as="geometry">
+            <mxPoint x="100" y="449.5" as="sourcePoint" />
+            <mxPoint x="160" y="449.5" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="450" />
+              <mxPoint x="290" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-44" value="特殊敏感人员列表同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bZXitFiKFjqk8RF1Yf0-43">
+          <mxGeometry x="-0.2779" y="-4" relative="1" as="geometry">
+            <mxPoint x="12" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="470" />
+              <mxPoint x="240" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bZXitFiKFjqk8RF1Yf0-46" value="同步成功/失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bZXitFiKFjqk8RF1Yf0-45">
+          <mxGeometry x="0.0826" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
