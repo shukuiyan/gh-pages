@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T06:40:58.436Z" agent="5.0 (Macintosh)" etag="4dPYm0fBIzr-gM7mJLB3" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T06:43:29.317Z" agent="5.0 (Macintosh)" etag="vaWbWVPqkvCt8jStIrqL" version="14.3.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="924" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -283,6 +283,36 @@
           <mxGeometry x="-1" y="10" relative="1" as="geometry">
             <mxPoint x="100.5" y="980" as="sourcePoint" />
             <mxPoint x="160.5" y="980" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT9Q_jiJZF_mphIu4XHV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="860" as="sourcePoint" />
+            <mxPoint x="360" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="860" />
+              <mxPoint x="410" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT9Q_jiJZF_mphIu4XHV-3" value="7.1敏感词库/过滤开关配置查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BT9Q_jiJZF_mphIu4XHV-2">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT9Q_jiJZF_mphIu4XHV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="880" />
+              <mxPoint x="465" y="880" />
+            </Array>
+            <mxPoint x="360" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT9Q_jiJZF_mphIu4XHV-5" value="7.2 敏感词库/过滤开关配置信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BT9Q_jiJZF_mphIu4XHV-4">
+          <mxGeometry x="-0.0513" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
